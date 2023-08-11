@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Fellows</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #131313;
+            color: rgb(254, 248, 248);
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .product-card {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 1rem;
+            margin: 1rem;
+            width: 300px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, background-image 0.3s;
+            background-size: cover;
+            background-position: center;
+        }
+        .product-card img {
+            max-width: 100%;
+        }
+        .product-card:hover {
+            transform: scale(1.05);
+        }
+        
+        /* Individual product classes with hover effects */
+        .product-card.product-1:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-01.jpg');
+        }
+        .product-card.product-2:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-02.jpg');
+        }
+        .product-card.product-3:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-03.jpg');
+        }
+        .product-card.product-4:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-04.jpg');
+        }
+        .product-card.product-5:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-05.jpg');
+        }
+        .product-card.product-6:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-06.jpg');
+        }
+        .product-card.product-7:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-07.jpg');
+        }
+        .product-card.product-8:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-08.jpg');
+        }
+        .product-card.product-9:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-09.jpg');
+        }
+        .product-card.product-10:hover {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER_10.jpg');
+        }
+        
+        .product-title {
+            font-size: 1.25rem;
+            margin-top: 0.5rem;
+        }
+        .product-price {
+            font-size: 1.25rem;
+            font-weight: bold;
+            margin: 0.5rem 0;
+        }
+        .buy-button {
+            display: block;
+            text-align: center;
+            padding: 0.5rem 0;
+            background-color: #28a745;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .buy-button:hover {
+            background-color: #218838;
+        }
+        .contact-form {
+            margin-top: 2rem;
+            padding: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            background-color: #f8f9fa;
+            width: calc(100% + 10cm); 
+            margin-left: -5cm;
+        }
+        .contact-form label {
+            font-weight: bold;
+        }
+        .form-control {
+            margin-bottom: 1rem;
+        }
+        .company-logo {
+            max-width: 80px;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tech Fellows</h1>
+    </header>
+
+    <div class="container">
+        <!-- Product 1 -->
+        <div class="product-card product-1">
+            <img src="IMG-01.jpg" alt="Product 1">
+            <h2 class="product-title">Adapter</h2>
+            <p class="product-price">R99.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+        
+        <!-- Product 2 -->
+        <div class="product-card product-2">
+            <img src="IMG-02.jpg" alt="Product 2">
+            <h2 class="product-title">Texas Calculator</h2>
+            <p class="product-price">R159.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+        
+        <!-- Product 3 -->
+        <div class="product-card product-3">
+            <img src="IMG_03.jpg" alt="Product 3">
+            <h2 class="product-title">Smart Watch</h2>
+            <p class="product-price">R149.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card product-4">
+            <img src="IMG_04.jpg" alt="Product 4">
+            <h2 class="product-title">Surge Protector</h2>
+            <p class="product-price">R79.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card product-5">
+            <img src="IMG_05.jpg" alt="Product 5">
+            <h2 class="product-title">HD Phone Lens</h2>
+            <p class="product-price">R259.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="product-card product-6">
+            <img src="IMG-06.jpg".jpg" alt="Product 6">
+            <h2 class="product-title">Smart TV</h2>
+            <p class="product-price">R4999.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="product-card product-7">
+            <img src="IMG-07.jpg".jpg" alt="Product 7">
+            <h2 class="product-title">Tripod</h2>
+            <p class="product-price">R129.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="product-card product-8">
+            <img src="IMG-08.jpg".jpg" alt="Product 8">
+            <h2 class="product-title">HD Webcam</h2>
+            <p class="product-price">R179.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="product-card product-9">
+            <img src="IMG-09.jpg".jpg" alt="Product 9">
+            <h2 class="product-title">Bluetooth Earbuds</h2>
+            <p class="product-price">R299.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="product-card product-10">
+            <img src="IMG-10.jpg".jpg" alt="Product 10">
+            <h2 class="product-title">TV Wall Mount</h2>
+            <p class="product-price">R359.99</p>
+            <a href="#" class="buy-button">Buy</a>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <form class="contact-form">
+                    <h2>Contact Details</h2>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+                <img src="Logo.png" alt="Company Logo" class="company-logo">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

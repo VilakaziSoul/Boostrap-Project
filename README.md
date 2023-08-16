@@ -1,11 +1,47 @@
-# Boostrap-Project
+# Tech Fellows Website
 
-# Hi!! My name is Kathide Vilakazi and I am currently learning how to code in HTML and use Bootstrap.
-This project is a simple e-commerce-like webpage showcasing various tech products along with their prices and images. Users can explore the products and submit inquiries through the contact form. 
+This is a simple website showcasing a range of tech products offered by Tech Fellows. The website includes product cards with hover effects, a contact form, and the company logo.
 
-Open the index.html file in a web browser to view the webpage.
-Explore the products and hover over them for image hover effects. 
-Fill out the contact form at the bottom to submit inquiries. (Not currently coded)
+## Table of Contents
 
-# Contact Details
-If you have any questions or suggestions, feel free to reach out to me on here or send me an email at Sidwelljnq@gmail.com
+- [Description](#description)
+- [Usage](#usage)
+- [Preview](#preview)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Description
+
+The Tech Fellows Website is a static webpage built using HTML and CSS. It displays various tech products with product cards that have interactive hover effects. Users can also submit their contact details using the provided contact form.
+
+## Usage
+
+Visit the website by opening the HTML file in a web browser. Browse through the products, explore the hover effects, and interact with the contact form if desired.
+
+## Preview
+
+Insert a screenshot or GIF showcasing the appearance of the website, or provide a live link to a hosted version if available.
+
+## Installation
+
+1. Clone or download the repository to your local machine.
+2. Open the `index.html` file in a web browser.
+
+## Contributing
+
+Contributions are welcome! If you find any issues or want to improve the website, feel free to submit a pull request.
+
+1. Fork the repository.
+2. Create a new branch for your changes: `git checkout -b feature/my-feature`.
+3. Make your changes and commit them: `git commit -m "Add new feature"`.
+4. Push to your branch: `git push origin feature/my-feature`.
+5. Open a pull request on GitHub.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+Created by [Kathide Vilakazi]

@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #131313;
+    color: rgb(254, 248, 248);
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+}
+
+
+.company-logo {
+    max-width: 90px; 
+    display: block;
+    margin: 0 auto;
+}
+
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1rem;
+    margin: 1rem;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background-image 0.3s;
+    background-size: cover;
+    background-position: center;
+}
+
+.product-card img {
+    max-width: 100%;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
+
+
+/* Individual product hover effects */
+.product-card.product-1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-01.jpg');
+}
+
+.product-card.product-2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-02.jpg');
+}
+
+
+.product-card.product-3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-03.jpg');
+}
+
+.product-card.product-4:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-04.jpg');
+}
+
+
+.product-card.product-5:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-05.jpg');
+}
+
+
+.product-card.product-6:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-06.jpg');
+}
+
+
+.product-card.product-7:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-07.jpg');
+}
+
+
+.product-card.product-8:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-08.jpg');
+}
+
+
+
+.product-card.product-9:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-09.jpg');
+}
+
+
+.product-card.product-10:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('HOVER-10.jpg');
+}
+
+/* Other styles */
+
+
+/* ... */
